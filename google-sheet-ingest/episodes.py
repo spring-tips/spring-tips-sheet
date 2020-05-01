@@ -1,13 +1,10 @@
 import datetime
-from typing import Iterable
 
 
 class Episode(object):
     '''
     Describes a single episode of A Bootiful Podcast.
     '''
-
-
 
     def __init__(self,
                  title: str,

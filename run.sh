@@ -23,6 +23,9 @@ git clone https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/spring-tips/spring-
 cd $output/clone  
 cp $JSON_FN  $output/clone 
 cp $RSS_FN  $output/clone 
+ls -la 
+ls -la $JSON_FN
+ls -la $RSS_FN
 git add *
 git commit -am "updated $FN @ $(date)"
 git push
