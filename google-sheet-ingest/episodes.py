@@ -13,7 +13,7 @@ class Episode(object):
                  date: datetime.datetime,
                  youtube_id: str):
         self.title = title
-        self.seasonNo = season_no
+        self.season_number = season_no
         self.blog_url = blog_url
         self.date = date
         self.youtube_id = youtube_id
