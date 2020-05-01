@@ -7,12 +7,6 @@ import episodes
 
 
 def build_from_episodes(eps: typing.List[episodes.Episode]) -> str:
-    '''
-    produces an RSS representation of the episodes.
-    :param fn:
-    :param eps:
-    :return:
-    '''
     print('writing RSS...')
 
     def build_rss_item_for_episode(episode: episodes.Episode) -> PyRSS2Gen.RSSItem:
