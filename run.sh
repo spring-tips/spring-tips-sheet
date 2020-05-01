@@ -9,8 +9,8 @@ output=$HOME/out
 rm -rf $output
 mkdir -p $output 
 
-export JSON_FN=$output/output.json
-export RSS_FN=$output/output.rss
+export JSON_FN=$output/episodes.json
+export RSS_FN=$output/episodes.xml
 
 
 pipenv install
