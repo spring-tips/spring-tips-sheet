@@ -18,6 +18,7 @@ FN=`pwd`/spring-tips.xml
 pipenv run python main.py  
 cd ..
 
+
 mkdir -p $output/clone  
 git clone https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/spring-tips/spring-tips.github.io.git $output/clone 
 cd $output/clone  
