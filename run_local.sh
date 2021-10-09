@@ -13,6 +13,7 @@ export RSS_FN=$output/output.rss
 pipenv install 
 pipenv run python main.py  
 
+
 rm token.pickle 
 rm credentials.json 
 
