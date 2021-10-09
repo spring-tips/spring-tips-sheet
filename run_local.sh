@@ -19,8 +19,6 @@ rm credentials.json
 cd ..
 source $files/git.sh 
 
-
-
 rm -rf $output
 
 
