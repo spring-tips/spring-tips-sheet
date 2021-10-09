@@ -14,7 +14,6 @@ mkdir -p $output
 export JSON_FN=$output/episodes.json
 export RSS_FN=$output/episodes.xml
 
-
 pipenv install
 FN=`pwd`/spring-tips.xml
 pipenv run python main.py  
