@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e 
+
 cd google-sheet-ingest
 git config --global user.email "josh@joshlong.com"
 git config --global user.name "Spring Tips"
